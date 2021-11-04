@@ -13,16 +13,19 @@ export default function Home() {
           <title>Início | Move.it</title>
         </Head>
         <ExperienceBar/>
-        <section>
-          <div>
-            <Profile/>
-            <CompletedChallenges/>
-            <Countdown/>
-          </div>
-          <div>
-            <ChallengeBox/>
-          </div>
-        </section>
+
+        
+          <section>
+            <div>
+              <Profile/>
+              <CompletedChallenges/>
+              <Countdown/>
+            </div>
+            <div>
+              <ChallengeBox/>
+            </div>
+          </section>
+        
       </div>
     </>
   )
